@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Page Object Model class for the Home Page.
+ * Page Object Model class for the Home Page,
  * Encapsulates web elements and actions on the Home Page.
  */
 public class HomePage {
