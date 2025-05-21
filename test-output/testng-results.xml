@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-21T17:01:49 IST" name="Suite" finished-at="2025-05-21T17:03:39 IST" duration-ms="110399">
+    <groups>
+    </groups>
+    <test started-at="2025-05-21T17:01:49 IST" name="Test" finished-at="2025-05-21T17:03:39 IST" duration-ms="110399">
+      <class name="com.Test.AmazonDropDownTest">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:42 IST" name="setUpDriver" finished-at="2025-05-21T17:02:44 IST" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:44 IST" name="initPageObjects" finished-at="2025-05-21T17:02:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testCurrentUrl()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:44 IST" name="testCurrentUrl" finished-at="2025-05-21T17:02:50 IST" duration-ms="5891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:50 IST" name="tearDown" finished-at="2025-05-21T17:02:51 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:51 IST" name="setUpDriver" finished-at="2025-05-21T17:02:53 IST" duration-ms="2108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:53 IST" name="initPageObjects" finished-at="2025-05-21T17:02:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testSearchDropdown(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:02:53 IST" name="testSearchDropdown" data-provider="Cat" finished-at="2025-05-21T17:03:03 IST" duration-ms="10418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alexa Skills]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Communication]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:03 IST" name="tearDown" finished-at="2025-05-21T17:03:04 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:04 IST" name="setUpDriver" finished-at="2025-05-21T17:03:07 IST" duration-ms="3575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:07 IST" name="initPageObjects" finished-at="2025-05-21T17:03:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testSearchDropdown(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:07 IST" name="testSearchDropdown" data-provider="Cat" finished-at="2025-05-21T17:03:25 IST" duration-ms="17931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Pharmacy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prescription Medication]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:25 IST" name="tearDown" finished-at="2025-05-21T17:03:26 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:26 IST" name="setUpDriver" finished-at="2025-05-21T17:03:28 IST" duration-ms="2696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:28 IST" name="initPageObjects" finished-at="2025-05-21T17:03:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testSearchDropdown(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:28 IST" name="testSearchDropdown" data-provider="Cat" finished-at="2025-05-21T17:03:39 IST" duration-ms="10946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Appliances]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kitchen & Home Appliances]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonDropDownTest@4c2bb6e0]" started-at="2025-05-21T17:03:39 IST" name="tearDown" finished-at="2025-05-21T17:03:39 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.AmazonDropDownTest -->
+      <class name="com.Test.AmazonAddToCartTest">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:01:49 IST" name="setUpDriver" finished-at="2025-05-21T17:01:54 IST" duration-ms="5111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:01:54 IST" name="initPageObjects" finished-at="2025-05-21T17:01:54 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testCurrentUrl()[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:01:54 IST" name="testCurrentUrl" finished-at="2025-05-21T17:02:01 IST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:02:01 IST" name="tearDown" finished-at="2025-05-21T17:02:02 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:02:03 IST" name="setUpDriver" finished-at="2025-05-21T17:02:06 IST" duration-ms="2730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:02:06 IST" name="initPageObjects" finished-at="2025-05-21T17:02:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testProductExistsInCart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:02:06 IST" name="testProductExistsInCart" data-provider="Electronics" finished-at="2025-05-21T17:02:41 IST" duration-ms="35299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobiles & Accessories]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smartphones & Basic Mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductExistsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.AmazonAddToCartTest@7dc3712]" started-at="2025-05-21T17:02:41 IST" name="tearDown" finished-at="2025-05-21T17:02:42 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.AmazonAddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
