@@ -14,7 +14,6 @@ import com.POM.HomePage;
 import com.POM.LogInpage;
 import com.Utill.BrowserEventHandler;
 import com.Utill.DataProviderClass;
-import com.Utill.ReuseableMethods;
 
 /**
  * Test class to verify Amazon dropdown category selection and URL after login.

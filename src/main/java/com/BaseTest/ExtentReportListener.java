@@ -1,6 +1,5 @@
 package com.BaseTest;
 
-import org.testng.IExecutionListener;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
@@ -22,7 +21,6 @@ public class ExtentReportListener {
 		if (extent == null) {
 			// Define the location and filename of the generated report
 			String reportPath = System.getProperty("user.dir") + "\\Reports\\ExtentReport.html";
-			System.out.println(reportPath);
 
 			// Initialize the Spark reporter (HTML reporter)
 			ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);

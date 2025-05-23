@@ -32,7 +32,6 @@ public class AmazonAddToCartTest extends BaseTest {
     private static final String PHONE_NUMBER = "+919980823847";
     private static final String PASSWORD = "Shashi@123";
 
-    private ReuseableMethods reuseableMethods;
     private BrowserEventHandler browserEventHandler;
 
     /**
@@ -43,7 +42,7 @@ public class AmazonAddToCartTest extends BaseTest {
         homePage = new HomePage(driver);
         leftNavObject = new LeftSideNavBarPage(driver);
         loginPage = new LogInpage(driver);
-        reuseableMethods = new ReuseableMethods();
+        new ReuseableMethods();
         browserEventHandler = new BrowserEventHandler(driver);
     }
 
